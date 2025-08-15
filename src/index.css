@@ -1,0 +1,11 @@
+/* 1. Import Google font first */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+/* 2. Import Tailwind core */
+@import "tailwindcss";
+
+/* 3. Define custom theme tokens */
+@theme {
+  --font-noto: "Noto Sans", sans-serif;
+  --color-brand: #000000;
+}
